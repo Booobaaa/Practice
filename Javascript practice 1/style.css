@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 16px 50px;
+}
+
+.navbar__logo {
+    color: red;
+}
+
+.main {
+    background: #898989;
+}
+
+.main__container {
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 92vh;
+    text-align: center;
+}
+
+#message {
+    padding-top: 50px;
+    color: darkred;
+    font-size: 3.5rem;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 16px;
+    border-style: none;
+    text-decoration: none;
+    background-color: red;
+    padding: 12px 24px;
+    outline: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: pink
+}
+
+#demo {
+    color: blue;
+    font-size: 2.5rem;
+}
+
+#demo2 {
+    color: lightskyblue;
+    font-size: 1.5rem;
+}
+
+#demo3 {
+    color: lightskyblue;
+    font-size: 1.5rem;
+}
+
+#demo4 {
+    color: lightskyblue;
+    font-size: 1.5rem;
+}
+
+#demo5 {
+    color: lightskyblue;
+    font-size: 1.5rem;
+}
+
+#demo6 {
+    margin-top: 100px;
+    color: purple;
+    font-size: 3rem;
+}
+
+#demo7 {
+    color: purple;
+    font-size: 2rem;
+}
+
+#demo8 {
+    color: purple;
+    font-size: 1rem;
+}
+
+#demo9 {
+    color: purple;
+    font-size: 2rem;
+}
+
+#demo10 {
+    color: purple;
+    font-size: 1rem;
+}
+
+#demo11 {
+    color: purple;
+    font-size: 2rem;
+}
+
+#demo12 {
+    color: purple;
+    font-size: 1.5rem;
+}
